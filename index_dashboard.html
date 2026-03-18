@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Study Dashboard</title>
+    <link rel="stylesheet" href="style_dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="script_dashboard.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-text">
+                <h1>My Study Dashboard</h1>
+                <p id="welcome-message"></p>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Tasks</a>
+                <a href="#">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="card profile-card">
+            <div class="card-label">Profile</div>
+            <h2>Your Name</h2>
+            <p>Add a short bio about yourself and your course here.</p>
+            <img src="https://placehold.co/100x100/1a1a2e/ffffff?text=YN" alt="Profile picture" class="profile-img">
+        </section>
+
+        <section class="card goals-card">
+            <div class="card-label">Goals</div>
+            <h2>Weekly Goals</h2>
+            <ul>
+                <li>Complete this week's assignment</li>
+                <li>Review notes for Module 1</li>
+                <li>Make notes for Module 2</li>
+                <li>Other task here</li>
+            </ul>
+            <button id="showGoalsBtn">Show Goals</button>
+            <div id="goalsDisplay"></div>
+        </section>
+
+        <section class="card status-card">
+            <div class="card-label">Status</div>
+            <h2>Study Status</h2>
+            <p class="status-line">Status:</p>
+            <p class="session-line">Study sessions today: <span id="sessionCount">0</span></p>
+            <div class="button-row">
+                <button id="addSession">Add Session</button>
+                <button id="resetSession" class="btn-reset">Reset</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name | CS230 | Last updated: Feb 2026 | Study Tracking Dashboard</p>
+    </footer>
+
+</body>
+</html>
