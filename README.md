@@ -54,4 +54,4 @@ Built as part of an MH602 Web Development lab at Maynooth University.
 ---
 
 ## 👨‍💻 Author
-**Your Name** — [GitHub](https://github.com/DamianCiumacenco) · [LinkedIn](https://www.linkedin.com/in/damian-ciumacenco-71b15a283/)
+**Damian Ciumacenco** — [GitHub](https://github.com/DamianCiumacenco) · [LinkedIn](https://www.linkedin.com/in/damian-ciumacenco-71b15a283/)
