@@ -1,3 +1,4 @@
+
 # 📚 Student Study Dashboard
 
 A responsive study tracking dashboard built with HTML, CSS and JavaScript.
